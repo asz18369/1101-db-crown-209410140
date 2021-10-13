@@ -45,3 +45,7 @@ module.exports = router;
 
 ## Q5
 ![](https://i.imgur.com/dudvKcd.png)
+
+## Q6
+![](https://i.imgur.com/kG19HkA.png)
+###[Github](https://github.com/asz18369/1101-db-crown-209410140)
