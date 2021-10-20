@@ -1,7 +1,7 @@
 const db = require('../utils/database');
 
 const Category_40 = class Category_40{
-    constructor(id,name,size,remote_url,link_url){
+    constructor(id,name,size,remote_url,local_url,link_url){
         this.id = id;
         this.name = name;
         this.size = size;
@@ -13,7 +13,7 @@ const Category_40 = class Category_40{
 static async fetchAll() {
     try{
         let results = await db.query(`SELECT * from category_40`);
-        return result.rows;
+        return results.rows;
     } catch (e) {
         console.log('error',e);
     }
@@ -25,5 +25,5 @@ static async fetchAll() {
 //     console.log('results',JSON.stringify(results.rows));
 // }
 
-test();
-module.exports = category_40;
+// test();
+module.exports = Category_40;
