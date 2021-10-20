@@ -2,7 +2,7 @@
 
 
 ## P0.
-覺得進度還是略快，但整體還勉強可以跟上，然期中作業有點難度，因為一年級進度太快很多東西都忘了，需要一點時間回憶跟研究。
+覺得進度還是略快，但整體還勉強可以跟上，但是是真的很"勉強"，然期中作業有點難度，因為一年級進度太快很多東西都忘了，需要一點時間回憶跟研究。
 
 ## P1.
 ```html
@@ -61,5 +61,8 @@ module.exports = router;
 ## P5
 
 ## P6
-
+![](https://i.imgur.com/01wJ5oG.jpg)
+![](https://i.imgur.com/NNZuPtJ.png)
+![](https://i.imgur.com/AhdFB0R.png)
+![](https://i.imgur.com/gzzhk0P.png)
 ## P7

@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const crown_40_Router = require('./routes/crown_40');
 const crown2_40_Router = require('./routes/crown2_40');
+const api_40_apiRouter = require('./routes/api_40')
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/crown_40', crown_40_Router);
 app.use('/crown2_40', crown2_40_Router);
+app.use('/api_40',api_40_apiRouter);
 
 app.use('/users', usersRouter);
 
