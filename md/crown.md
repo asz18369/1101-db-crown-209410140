@@ -59,10 +59,38 @@ module.exports = router;
 
 
 ## P5
+![](https://i.imgur.com/Ca7L2rp.png)
+![](https://i.imgur.com/18y3mDk.png)
+```
+pool = new Pool({
+  user: 'postgres',
+  host: 'localhost',
+  database: 'crown_40',
+  password: '0000',
+  port: 5432,
+  // connectionString: isProduction ? process.env.DATABASE_URL : `postgresql://postgres:0000@localhost:5432/crown40`
+})
+```
+
 
 ## P6
-![](https://i.imgur.com/01wJ5oG.jpg)
+![](https://i.imgur.com/BbSUIzZ.jpg)
 ![](https://i.imgur.com/NNZuPtJ.png)
 ![](https://i.imgur.com/AhdFB0R.png)
 ![](https://i.imgur.com/gzzhk0P.png)
+[URL](http://localhost:3000/crown2_40)
+
+
 ## P7
+![](https://i.imgur.com/V0VhqGP.jpg)
+[Github](https://github.com/asz18369/1101-db-crown-209410140)
+
+## P8
+![](https://i.imgur.com/jc33KBU.png)
+![](https://i.imgur.com/OeK4yBW.png)
+![](https://i.imgur.com/1MsIvPz.png)
+![](https://i.imgur.com/pZ8XKcV.jpg)
+
+## P9
+![](https://i.imgur.com/tnJPrjA.png)
+[Github](https://github.com/asz18369/1101-db-crown-209410140)

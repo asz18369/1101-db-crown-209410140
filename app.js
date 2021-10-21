@@ -21,6 +21,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(
+  cors({
+    origin: ['https://heroku-crown40.herokuapp.com/api_40/category_40'],
+  })
+);
 
 app.use('/', indexRouter);
 app.use('/crown_40', crown_40_Router);
