@@ -23,14 +23,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
   cors({
-    origin: ['https://heroku-crown40.herokuapp.com/api_40/category_40'],
+    origin: '*',
   })
 );
 
 app.use('/', indexRouter);
 app.use('/crown_40', crown_40_Router);
 app.use('/crown2_40', crown2_40_Router);
-app.use('/api_40',api_40_apiRouter);
+app.use('/api_40', cors(),api_40_apiRouter);
 
 app.use('/users', usersRouter);
 
