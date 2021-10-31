@@ -1,8 +1,11 @@
 {
   "name": "crown-40",
+  "homepage": "https://asz18369.github.io/1101-db-crown-209410140/",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"
   },
@@ -12,6 +15,7 @@
     "debug": "~4.3.2",
     "ejs": "~3.1.6",
     "express": "~4.17.1",
+    "gh-pages": "^3.2.3",
     "http-errors": "~1.8.0",
     "morgan": "~1.10.0",
     "node": "^17.0.1",
